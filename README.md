@@ -4,7 +4,7 @@ A Python implementation of Claude Code — Anthropic's AI-powered CLI coding ass
 
 ---
 
-## 🌟 **[View Interactive Project Showcase](https://Even0304.github.io/basic_claude_code/PROJECT_SHOWCASE.html)**
+## 🌟 **[View Interactive Project Showcase](https://even0304.github.io/basic_claude_code/PROJECT_SHOWCASE.html)**
 
 **Click above to see:**
 - ✨ All 11 implemented features with visual progress
