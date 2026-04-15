@@ -1,0 +1,65 @@
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+.env.*.py
+
+# IDE and editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Session files
+.kimi/sessions/
+
+# Logs
+*.log
+
+# Misc
+.cache/
+*.tmp
+*.bak
+
+# Exclude reference/tutorial code
+claude-code-from-scratch/
+
+# Exclude specific test files
+debug_demo.py
+test_integration.py

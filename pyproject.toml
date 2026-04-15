@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kimi-code"
+version = "0.1.0"
+description = "Python CLI coding agent — Claude Code reimplementation with Kimi k2.5z support"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Your Name", email = "your@email.com"}]
+
+dependencies = [
+    "anthropic>=0.30.0",
+    "openai>=1.30.0",
+    "rich>=13.7.0",
+    "typer>=0.12.0",
+    "python-dotenv>=1.0.0",
+    "aiofiles>=23.2.0",
+    "aiohttp>=3.9.0",
+    "beautifulsoup4>=4.12.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0",
+    "pytest-mock>=3.12.0",
+    "black>=23.0.0",
+    "ruff>=0.1.0",
+]
+
+[project.scripts]
+kimi-code = "kimi_code.cli:app"
+
+[tool.setuptools]
+packages = ["kimi_code"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+[tool.black]
+line-length = 100
+target-version = ['py310']
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100
