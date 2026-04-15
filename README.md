@@ -2,6 +2,19 @@
 
 A Python implementation of Claude Code — Anthropic's AI-powered CLI coding assistant. Built with **asyncio-based parallel multi-agent execution**, support for both Kimi k2.5z (Moonshot AI) and Claude (Anthropic), and a full toolkit for code analysis and manipulation.
 
+---
+
+## 🌟 **[View Interactive Project Showcase](https://Even0304.github.io/basic_claude_code/PROJECT_SHOWCASE.html)**
+
+**Click above to see:**
+- ✨ All 11 implemented features with visual progress
+- 📊 Performance metrics (3.15x-7.42x speedup)
+- 🎯 Complete feature breakdown
+- 💡 Optimization strategies
+- 📈 Project statistics
+
+---
+
 ## Features
 
 ### ✨ Core Features
@@ -381,14 +394,6 @@ With task tool: ~10s (all parallel)
 ```
 
 The `task` tool enables natural parallelization without complex coordination.
-
-## Project Showcase
-
-View the **[Interactive Project Showcase](PROJECT_SHOWCASE.html)** for a complete visual overview of all implemented features, performance metrics, and optimization points. Open in your browser:
-
-```bash
-open PROJECT_SHOWCASE.html
-```
 
 ## Roadmap
 
